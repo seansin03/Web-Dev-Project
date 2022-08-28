@@ -1,0 +1,418 @@
+.homepage{
+    background-image:url("images/balloon-background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.schedule{
+    background-image:url("images/balloon-background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact_us{
+    background-image:url("images/balloon-background2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.membership {
+    background-image:url("images/balloon-background2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    color: #16080d;
+    font-size: large;
+    vertical-align: bottom;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.nav-header {
+    font-size: larger;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(14, 90, 231);
+    margin: 0;
+    padding: 1rem 0;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+nav img {
+    width: 100px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    margin: 0 0.75rem;
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    
+
+}
+
+.explain {
+    text-align: center;
+    color: rgb(248, 19, 19);
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.nav-item a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.text-box {
+    position: relative;
+    width: 1100px;
+    height: 250px;
+    margin: 200px auto;
+}
+
+.text-box .box1 {
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+    right: 10rem;
+    width:calc(1400px - 30px);
+    height:calc(250px - 30px);
+    background: cyan;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.text-box .box2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 18rem;
+    bottom: 8rem;
+    width:calc(750px - 30px);
+    height:calc(400px - 30px);
+    background: cyan;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.text-box .box2 .yt-vid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 2rem;
+    bottom: 2rem;
+
+}
+
+.text-box .box3 {
+    word-wrap: break-word;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    left: 38rem;
+    bottom: 33rem;
+    width:calc(750px - 30px);
+    height:calc(400px - 30px);
+    background: cyan;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.text-box .box4 {
+    line-height: 1.5;
+    font-size: larger;
+    position: relative;
+    bottom: 30rem;
+    right: 10rem;
+    width:calc(1400px - 30px);
+    height:calc(370px - 30px);
+    background: cyan;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.covid {
+    width: 950px;
+    height: 300px;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    top: 1300px;
+}
+
+.trademark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: ghostwhite;
+    text-align: center;
+    box-sizing: border-box;
+    width: 280px;
+    height: 35px;
+    margin: 18px;
+    border-radius: 10px;
+}
+
+.text-box .box-map {
+    position: relative;
+    bottom: 150px;
+    left: 46rem;
+    right: 1rem;
+    width:calc(750px - 30px);
+    height:calc(600px - 30px);
+    background: cyan;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.text-box .box-map .map{
+    position: absolute;
+    justify-content: center;
+    left: 4rem;
+    top: 2rem;
+    bottom: 1rem;
+}
+
+.text-box .twitter-box {
+    position: relative;
+    bottom: 1320px;
+    right: 25rem;
+    width:calc(500px - 30px);
+    height:calc(600px - 30px);
+    background: cyan;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.text-box .twitter-box .twitter{
+    float: left;
+    position: absolute;
+    right: 9rem;
+    top: 2rem;
+    bottom: 20rem;
+}
+
+.text-box .faqs-box {
+    position: relative;
+    bottom: 730px;
+    left: 7rem;
+    width:calc(600px - 30px);
+    height:calc(600px - 30px);
+    background: cyan;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.faqhead {
+    text-align: center;
+    color: rgb(162, 5, 201);
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.contact-details {
+        position: relative;
+        text-align: center ;
+        bottom: 1300px;
+        left: 6rem;
+        width:calc(800px - 30px);
+        height:calc(350px - 30px);
+        background: cyan;
+        margin: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+}
+
+.row {
+    float: left;
+    width: 33%;
+    height: 400px;
+    display: grid;
+}
+
+
+
+
+table {
+    background-color: white;
+    font-size: xx-large;
+    position: relative;
+    bottom: 500px;
+    left: 22rem;
+    text-align: center;
+    width: 800px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 5px solid #000;
+
+}
+
+.schedule-box {
+    position: relative;
+    text-align: center ;
+    bottom: 150px;
+    right: 20rem;
+    width:calc(600px - 30px);
+    height:calc(350px - 30px);
+    background: cyan;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(13, 15, 15);
+    font-size: xx-large;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+.form input {
+    padding: 5px;
+    height: 50px;
+
+    border: 5px solid;
+    width: 400px;
+}
+
+.form select {
+    padding: 5px;
+    height: 50px;
+
+    border: 5px solid;
+    width: 400px;
+}
+
+.form .selection {
+    font-size: large;
+    line-height: 1.2;
+    white-space: pre-line;
+
+}
+
+.selection [type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+.form .contact-method {
+    white-space: pre-line;
+    font-size: large;
+}
+
+.form .birthdate {
+    white-space: pre-line;
+    font-size: large;
+}
+
+.form .form-title {
+    font-size: larger;
+    color: #c71313;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.form button {
+    white-space: pre-line;
+    height: 50px;
+    width: 100px;
+}
+
+.form .competitions {
+    white-space: pre-line;
+    font-size: large;
+}
+
+.form .rfj {
+    width: 600px ;
+    resize: vertical;
+    white-space: pre-line;
+    font-size: large;
+}
+
+.form .rfj textarea{
+    font-size: large;
+    border: 5px solid;
+    width: 390px ;
+    resize: vertical;
+}
+
+footer {
+        font-size: large;
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: ghostwhite;
+        text-align: center;
+        box-sizing: border-box;
+        width: 280px;
+        height: 35px;
+        margin: 18px;
+        border-radius: 10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en-IE">
+<head>
+    <meta charset="utf-8">
+    <title>Balloon Keepy Uppy Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="icon" href="images/icon.jpg" type="image/icon">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+
+</head>
+<body class="membership">
+    <nav>
+        <ul class="nav-header">
+            <li class="nav-item">
+            <a href="https://www.mtu.ie/" target="_blank">
+                <img src="images/icon.jpg" alt="MTU logo">
+                </a>
+            <a href="index.html" >HomePage</a>
+            <a href="Schedule.html" >Schedule/Events</a>
+            <a href="membership.html" >Membership</a>
+            <a href="contact_us.html" >Contact Us</a>
+            <div class="trademark">
+                <p>Sean Sinclair &copy; 2021</p>
+            </div>
+            </li>
+        </ul>
+        
+    </nav>
+
+
+<form class="form" action="https://webdevcit.com/displayvalues.php" method="get">
+    <input type="text" name="name" placeholder="Enter Name:" required>
+    <input type="email" name="email" placeholder="Enter Email:" required>
+    <input type="text" name="study" placeholder="Enter Department of Study:" required>
+    <input type="text" name="contact number" placeholder="Enter Contact Number:">
+
+    <div class="selection">
+        Male: <input type="radio" name="gender" value="Male">
+        Female: <input type="radio" name="gender" value="Female">
+        Other: <input type="radio" name="gender" value="Other">
+    </div>
+
+
+    <div class="birthdate">
+        <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate" name="birthdate">
+    </div>
+
+    <div class="selection">
+        <p class="form-title">Experience Level</p>
+        Novice: <input type="radio" name="experience-level" value="Novice">
+        Competent: <input type="radio" name="experience-level" value="Competent">
+        Expert: <input type="radio" name="experience-level" value="Expert">
+    </div>
+
+
+    <div class="contact-method">
+        <label for="Prefered Contact Method">Prefered Contact Method</label>
+        <select name="Prefered Contact Method" id="Prefered Contact Method">
+            <option value="Email">Email</option>
+            <option value="Zoom">Zoom</option>
+            <option value="Whatsapp">Whatsapp</option>
+        </select>
+    </div>
+
+    <div class="competitions">
+        <label for="competitions">Do you want to compete in competitions: </label>
+        <select name="Prefered Contact Method" id="Prefered Contact Method">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="rfj">
+        <label for="Reason for joining">Reason for Joining &#40;100 words&#41;:</label>
+        <textarea id="Reason for joining" name="Reason for joining">
+
+        </textarea>
+    </div>
+
+
+    <br>
+    <button type="submit" name="submit">Submit</button>
+    <button type="reset" name="reset">Reset</button>
+
+</form>
+
+
+</body>
+</html>
